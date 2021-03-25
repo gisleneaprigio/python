@@ -1,0 +1,6 @@
+valorInteiro=int(input("Digite um número inteiro:"))
+valorAux=int(valorInteiro%10)
+valorSub=int(valorInteiro-valorAux)
+valorDiv=int(valorSub/10)
+resultado=int(valorDiv%10)
+print("O dígito das dezenas é", resultado)

@@ -31,7 +31,7 @@ def campeonato():
     numeroRodada = 1
     while numeroRodada <= 3:
         print()
-        print('**** Rodada', numeroRodada, '****')
+        print('********** Rodada', numeroRodada, '***********')
         print()
         partida()
         numeroRodada += 1

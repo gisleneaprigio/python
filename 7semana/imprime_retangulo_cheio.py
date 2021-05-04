@@ -1,14 +1,13 @@
-l = int(input("Digite a largura: "))
-a = int(input("Digite a altura: "))
+largura = int(input('digite a largura: '))
+altura = int(input('digite a altura: '))
+l = 1 
+a = 1 
+while a <= altura: 
+   print('#' * largura, end = '') 
+   print() 
+   a = a + 1 
+      
 
-linha = 0
-coluna = 0
-
-while linha < a:
-    while coluna < l:
-        print("#", end=" ")
-        coluna = coluna + 1
-    print()
-
-    linha = linha+1
-    coluna = 0
+   
+      
+ 

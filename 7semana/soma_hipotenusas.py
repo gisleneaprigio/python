@@ -1,5 +1,3 @@
-cd 
-
 def calcular_hipotenusa(a, b):
     return ((a*a) + (b*b))
 
